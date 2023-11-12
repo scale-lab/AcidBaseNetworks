@@ -1,0 +1,18 @@
+This example mass spectrometry file/folder has had its measurement data (marked with XXX below)removed (as it exceeded 15GB). 
+
+A typical Bruker SolariX '.d' file will have the following file structure:
+
+	\example.d
+		analysis.baf                     XXX
+		analysis.baf_idx
+		analysis.baf_xtr
+		calib.bin
+		parameterChanges.sqlite			 
+		ser                              XXX
+		\method.m
+			apexAcquisition.method
+			ExciteSweep
+			lock.file
+			PULPROG__basic.compiled
+			PULPROG__basic.event_seq
+			submethods.xml

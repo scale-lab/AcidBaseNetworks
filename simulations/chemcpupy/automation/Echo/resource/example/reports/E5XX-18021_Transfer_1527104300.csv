@@ -1,0 +1,27 @@
+Run ID,1527104273
+Run Date/Time,2018-05-23 15:38:47
+Application Name,Labcyte Echo Plate Reformat
+Application Version,1.6.4
+Protocol Name,Protocol 5.epr
+User Name,Labcyte Echo
+
+[DETAILS]
+Source Plate Name,Source Plate Barcode,Source Plate Type,Source Well,Destination Plate Name,Destination Plate Barcode,Destination Plate Type,Destination Well,Destination Well X Offset,Destination Well Y Offset,Sample ID,Sample Name,Transfer Volume,Actual Volume,Current Fluid Volume,Fluid Composition,Fluid Units,Fluid Type,Transfer Status
+Source[1],,384PP_DMSO2,A10,Destination[1],,MALDI_MSS_Thin_384_Dest,C1,0,0,,,2.5,2.5,58.357,70.487,Percent,DMSO,
+Source[1],,384PP_DMSO2,A10,Destination[1],,MALDI_MSS_Thin_384_Dest,C2,0,0,,,5,5,58.352,70.487,Percent,DMSO,
+Source[1],,384PP_DMSO2,A10,Destination[1],,MALDI_MSS_Thin_384_Dest,C3,0,0,,,7.5,7.5,58.345,70.487,Percent,DMSO,
+Source[1],,384PP_DMSO2,A10,Destination[1],,MALDI_MSS_Thin_384_Dest,C4,0,0,,,10,10,58.335,70.487,Percent,DMSO,
+Source[1],,384PP_DMSO2,A10,Destination[1],,MALDI_MSS_Thin_384_Dest,C5,0,0,,,15,15,58.32,70.487,Percent,DMSO,
+Source[1],,384PP_DMSO2,A10,Destination[1],,MALDI_MSS_Thin_384_Dest,C6,0,0,,,25,25,58.295,70.487,Percent,DMSO,
+Source[1],,384PP_DMSO2,A10,Destination[1],,MALDI_MSS_Thin_384_Dest,C7,0,0,,,50,50,58.245,70.487,Percent,DMSO,
+Source[1],,384PP_DMSO2,A10,Destination[1],,MALDI_MSS_Thin_384_Dest,C9,0,0,,,75,75,58.17,70.487,Percent,DMSO,
+Source[1],,384PP_DMSO2,A10,Destination[1],,MALDI_MSS_Thin_384_Dest,C11,0,0,,,100,100,58.07,70.487,Percent,DMSO,
+Source[1],,384PP_DMSO2,A10,Destination[1],,MALDI_MSS_Thin_384_Dest,C13,0,0,,,250,250,57.82,70.487,Percent,DMSO,
+Source[1],,384PP_DMSO2,A10,Destination[1],,MALDI_MSS_Thin_384_Dest,C15,0,0,,,500,500,57.32,70.487,Percent,DMSO,
+Source[1],,384PP_DMSO2,A10,Destination[1],,MALDI_MSS_Thin_384_Dest,C18,0,0,,,1000,1000,56.32,70.487,Percent,DMSO,
+
+Instrument Name,E5XX-18021
+Instrument Model,Echo 550
+Instrument Serial Number,E5XX-18021
+Instrument Software Version,2.6.0
+

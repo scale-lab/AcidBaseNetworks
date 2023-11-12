@@ -1,0 +1,122 @@
+{
+    "data": [
+        {
+            "Complexity": 29,
+            "Exact Mass [Da]": 78.014,
+            "ID [PubChem]": 679,
+            "InChI": {
+                "key": "IAZDPXIOMUYVGZ-UHFFFAOYSA-N",
+                "name": "methylsulfinylmethane",
+                "string": "InChI=1S/C2H6OS/c1-4(2)3/h1-2H3"
+            },
+            "Mass [Da]": 78.01393598199999,
+            "Molar Mass [g/mol]": 78.129,
+            "Molecular Formula": "C2H6OS",
+            "Monoisotopic Mass [Da]": 78.014,
+            "Name": "dimethyl sulfoxide",
+            "Net Charge": 0,
+            "Polar Surface Area": 36.3,
+            "PubChem CID": 679,
+            "SMILES": "CS(=O)C",
+            "Synonyms": [
+                "dimethyl sulfoxide",
+                "DMSO",
+                "Methyl sulfoxide",
+                "67-68-5",
+                "Methylsulfinylmethane"
+            ],
+            "Type": "solvent",
+            "XLogP": -0.6
+        },
+        {
+            "Complexity": 273,
+            "Exact Mass [Da]": 262.23,
+            "ID [PubChem]": 12902,
+            "InChI": {
+                "key": "PFEFOYRSMXVNEL-UHFFFAOYSA-N",
+                "name": "2,4,6-tritert-butylphenol",
+                "string": "InChI=1S/C18H30O/c1-16(2,3)12-10-13(17(4,5)6)15(19)14(11-12)18(7,8)9/h10-11,19H,1-9H3"
+            },
+            "Mass [Da]": 262.22966557999996,
+            "Molar Mass [g/mol]": 262.437,
+            "Molecular Formula": "C18H30O",
+            "Monoisotopic Mass [Da]": 262.23,
+            "Name": "2,4,6 tri-tert-butyl phenol",
+            "Net Charge": 0,
+            "Polar Surface Area": 20.2,
+            "PubChem CID": 12902,
+            "SMILES": "CC(C)(C)C1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C",
+            "Synonyms": [
+                "2,4,6-Tri-tert-butylphenol",
+                "732-26-3",
+                "Voidox",
+                "Alkofen B",
+                "2,4,6-Tris(tert-butyl)phenol"
+            ],
+            "Type": "phenol",
+            "XLogP": 6.6
+        },
+        {
+            "Complexity": 80.6,
+            "Exact Mass [Da]": 122.073,
+            "ID [PubChem]": 11335,
+            "InChI": {
+                "key": "NXXYKOUNUYWIHA-UHFFFAOYSA-N",
+                "name": "2,6-dimethylphenol",
+                "string": "InChI=1S/C8H10O/c1-6-4-3-5-7(2)8(6)9/h3-5,9H,1-2H3"
+            },
+            "Mass [Da]": 122.07316494,
+            "Molar Mass [g/mol]": 122.167,
+            "Molecular Formula": "C8H10O",
+            "Monoisotopic Mass [Da]": 122.073,
+            "Name": "2,6 dimethyl phenol",
+            "Net Charge": 0,
+            "Polar Surface Area": 20.2,
+            "PubChem CID": 11335,
+            "SMILES": "CC1=C(C(=CC=C1)C)O",
+            "Synonyms": [
+                "2,6-DIMETHYLPHENOL",
+                "576-26-1",
+                "2,6-Xylenol",
+                "Phenol, 2,6-dimethyl-",
+                "2,6-Dimethyl phenol"
+            ],
+            "Type": "phenol",
+            "XLogP": 2.4
+        },
+        {
+            "Complexity": 123,
+            "Exact Mass [Da]": 139.027,
+            "ID [PubChem]": 980,
+            "InChI": {
+                "key": "BTJIUGUIPKRLHP-UHFFFAOYSA-N",
+                "name": "4-nitrophenol",
+                "string": "InChI=1S/C6H5NO3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H"
+            },
+            "Mass [Da]": 139.02694301999998,
+            "Molar Mass [g/mol]": 139.11,
+            "Molecular Formula": "C6H5NO3",
+            "Monoisotopic Mass [Da]": 139.027,
+            "Name": "4-nitro phenol",
+            "Net Charge": 0,
+            "Polar Surface Area": 66,
+            "PubChem CID": 980,
+            "SMILES": "C1=CC(=CC=C1[N+](=O)[O-])O",
+            "Synonyms": [
+                "4-Nitrophenol",
+                "p-nitrophenol",
+                "100-02-7",
+                "Phenol, 4-nitro-",
+                "Paranitrophenol"
+            ],
+            "Type": "phenol",
+            "XLogP": 1.9
+        }
+    ],
+    "date": "2018/07/27 13:44",
+    "format": {
+        "name": "Chemical CompoundDataBase",
+        "version": "1.0"
+    },
+    "name": "DataBase A"
+}

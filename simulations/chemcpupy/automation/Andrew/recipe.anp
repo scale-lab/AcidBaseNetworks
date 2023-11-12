@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<protocol version="1.5.2">
+  <public>
+    <id/>
+    <description/>
+    <name><![CDATA[Brown University DARPA]]></name>
+    <revision><![CDATA[1]]></revision>
+    <creation_date><![CDATA[Tue Jun 06 15:05:41 GMT+2000 2018]]></creation_date>
+    <last_modification_date><![CDATA[Tue Jun 06 15:05:41 GMT+2000 2018]]></last_modification_date>
+    <icon default="true"/>
+  </public>
+  <data>
+    <private>
+      <author><![CDATA[Chris Arcadia]]></author>
+      <author_email><![CDATA[christopher_arcadia@brown.edu]]></author_email>
+      <pipetting_policy><![CDATA[rows]]></pipetting_policy>
+    </private>
+    <library>
+      <consumable id="microplate384" preparation="group" shortname="MTP384" type="microplate384" version="2">
+        <name><![CDATA[384-well plate]]></name>
+        <display_name><![CDATA[MTP384]]></display_name>
+        <description><![CDATA[Generic microplate with 384 wells. This consumable describes typical square-shaped wells of capacity below 120 uL - with exclusion of 384-wells PCR microplates]]></description>
+        <category><![CDATA[Microplates]]></category>
+        <volumes dead="10000" max="120000"/>
+        <size columns="24" rows="16"/>
+      </consumable>
+      <consumable id="tube50" preparation="individual" shortname="TB50" type="tube50" version="2">
+        <name><![CDATA[50 mL conical centrifuge tube]]></name>
+        <display_name><![CDATA[TUBE 50]]></display_name>
+        <description><![CDATA[Plastic 50 mL tube, conical bottom (without skirt) and screwable cap. Also called Falcon tube or centrifuge tube]]></description>
+        <category><![CDATA[Tubes]]></category>
+        <volumes dead="500000" max="50000000"/>
+      </consumable>
+    </library>
+    <stock_solutions>
+      <stock_solution id="35651B84-7CF4-CAC7-59A9-43E3E7399E96">
+        <name><![CDATA[water]]></name>
+        <description><![CDATA[deionized water]]></description>
+        <color>16766720</color>
+        <concentration unit="a.u.">1</concentration>
+      </stock_solution>
+      <stock_solution id="8ED34505-69B1-5BC7-A13D-40B01B09E97D">
+        <name><![CDATA[red dye]]></name>
+        <description><![CDATA[red food coloring diluted in water]]></description>
+        <color>16738740</color>
+        <concentration unit="a.u.">1</concentration>
+      </stock_solution>
+    </stock_solutions>
+    <consumables>
+      <consumable id="F9DB029D-9778-1EC4-7EA4-3F1BC3F0D649" pattern="microplate384" x="326" y="110">
+        <label><![CDATA[384-well plate]]></label>
+        <required>true</required>
+        <comment><![CDATA[a canvas on which to draw]]></comment>
+      </consumable>
+      <consumable id="8CF4F670-48DD-E62D-EE18-3F1BDA813E43" pattern="tube50" x="143" y="90">
+        <label><![CDATA[50mL Falcon Tube (red dye)]]></label>
+        <required>true</required>
+        <stock_solution color="16738740" stock_solution_id="8ED34505-69B1-5BC7-A13D-40B01B09E97D" volume="-1"/>
+      </consumable>
+      <consumable id="516A731A-2BC7-0321-742B-3F2C542953FF" pattern="tube50" x="140" y="228">
+        <label><![CDATA[50mL Falcon Tube (water)]]></label>
+        <required>true</required>
+        <stock_solution color="16766720" stock_solution_id="35651B84-7CF4-CAC7-59A9-43E3E7399E96" volume="-1"/>
+      </consumable>
+    </consumables>
+    <set id="1000G" description="Gilson PIPETMAN Classic™" name="1000G">
+      <pipette>
+        <type><![CDATA[P2]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="15032858"/>
+        <volumes elution_max="2000" min="200" max="2000" elution_min="200"/>
+        <tips cork_ratio="0.65" cork_color="14037811" name="D10"/>
+        <tips_filter cork_ratio="0.65" cork_color="14037811" name="DF10"/>
+        <waste_volume>2000</waste_volume>
+      </pipette>
+      <pipette>
+        <type><![CDATA[P20]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="14340267"/>
+        <volumes aliquot_max="20000" aliquot_min="2000" max="20000" elution_max="20000" min="2000" elution_min="2000"/>
+        <tips cork_ratio="0.85" cork_color="14209102" name="D200"/>
+        <tips_filter cork_ratio="0.85" cork_color="14209102" name="DF30"/>
+        <waste_volume>10000</waste_volume>
+      </pipette>
+      <pipette>
+        <type><![CDATA[P100]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="16426375"/>
+        <volumes aliquot_max="100000" aliquot_min="2000" max="100000" elution_max="100000" min="20000" elution_min="10000"/>
+        <tips cork_ratio="0.85" cork_color="14209102" name="D200"/>
+        <tips_filter cork_ratio="0.85" cork_color="14209102" name="DF100"/>
+        <waste_volume>10000</waste_volume>
+      </pipette>
+      <pipette>
+        <type><![CDATA[P200]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="15582783"/>
+        <volumes aliquot_max="200000" aliquot_min="10000" max="200000" elution_max="200000" min="50000" elution_min="10000"/>
+        <tips cork_ratio="0.85" cork_color="14209102" name="D200"/>
+        <tips_filter cork_ratio="0.85" cork_color="14209102" name="DF200"/>
+        <waste_volume>30000</waste_volume>
+      </pipette>
+      <pipette>
+        <type><![CDATA[P1000]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="2134493"/>
+        <volumes aliquot_max="1000000" aliquot_min="50000" max="1000000" elution_max="1000000" min="200000" elution_min="50000"/>
+        <tips cork_ratio="1" cork_color="3041480" name="D1000"/>
+        <tips_filter cork_ratio="1" cork_color="3041480" name="DF1000"/>
+        <waste_volume>200000</waste_volume>
+      </pipette>
+    </set>
+    <actions>
+      <action level="0" position="1" type="pipette">
+        <message>pipetting</message>
+        <consumables>
+          <sources>
+            <consumable target="8CF4F670-48DD-E62D-EE18-3F1BDA813E43"/>
+          </sources>
+          <destinations>
+            <consumable target="F9DB029D-9778-1EC4-7EA4-3F1BC3F0D649">
+              <wells>
+                <well column="1" row="2"/>
+                <well column="2" row="2"/>
+                <well column="3" row="2"/>
+                <well column="4" row="2"/>
+                <well column="6" row="2"/>
+                <well column="7" row="2"/>
+                <well column="8" row="2"/>
+                <well column="9" row="2"/>
+                <well column="11" row="2"/>
+                <well column="12" row="2"/>
+                <well column="13" row="2"/>
+                <well column="15" row="2"/>
+                <well column="19" row="2"/>
+                <well column="21" row="2"/>
+                <well column="24" row="2"/>
+                <well column="1" row="3"/>
+                <well column="4" row="3"/>
+                <well column="6" row="3"/>
+                <well column="9" row="3"/>
+                <well column="11" row="3"/>
+                <well column="13" row="3"/>
+                <well column="15" row="3"/>
+                <well column="19" row="3"/>
+                <well column="21" row="3"/>
+                <well column="24" row="3"/>
+                <well column="1" row="4"/>
+                <well column="2" row="4"/>
+                <well column="3" row="4"/>
+                <well column="6" row="4"/>
+                <well column="9" row="4"/>
+                <well column="11" row="4"/>
+                <well column="13" row="4"/>
+                <well column="15" row="4"/>
+                <well column="17" row="4"/>
+                <well column="19" row="4"/>
+                <well column="21" row="4"/>
+                <well column="22" row="4"/>
+                <well column="24" row="4"/>
+                <well column="1" row="5"/>
+                <well column="4" row="5"/>
+                <well column="6" row="5"/>
+                <well column="7" row="5"/>
+                <well column="8" row="5"/>
+                <well column="11" row="5"/>
+                <well column="13" row="5"/>
+                <well column="15" row="5"/>
+                <well column="17" row="5"/>
+                <well column="19" row="5"/>
+                <well column="21" row="5"/>
+                <well column="23" row="5"/>
+                <well column="24" row="5"/>
+                <well column="1" row="6"/>
+                <well column="4" row="6"/>
+                <well column="6" row="6"/>
+                <well column="9" row="6"/>
+                <well column="11" row="6"/>
+                <well column="13" row="6"/>
+                <well column="15" row="6"/>
+                <well column="17" row="6"/>
+                <well column="19" row="6"/>
+                <well column="21" row="6"/>
+                <well column="24" row="6"/>
+                <well column="1" row="7"/>
+                <well column="2" row="7"/>
+                <well column="3" row="7"/>
+                <well column="4" row="7"/>
+                <well column="6" row="7"/>
+                <well column="9" row="7"/>
+                <well column="11" row="7"/>
+                <well column="12" row="7"/>
+                <well column="13" row="7"/>
+                <well column="16" row="7"/>
+                <well column="18" row="7"/>
+                <well column="21" row="7"/>
+                <well column="24" row="7"/>
+                <well column="1" row="10"/>
+                <well column="2" row="10"/>
+                <well column="3" row="10"/>
+                <well column="4" row="10"/>
+                <well column="6" row="10"/>
+                <well column="7" row="10"/>
+                <well column="8" row="10"/>
+                <well column="9" row="10"/>
+                <well column="11" row="10"/>
+                <well column="12" row="10"/>
+                <well column="13" row="10"/>
+                <well column="14" row="10"/>
+                <well column="16" row="10"/>
+                <well column="17" row="10"/>
+                <well column="18" row="10"/>
+                <well column="19" row="10"/>
+                <well column="21" row="10"/>
+                <well column="22" row="10"/>
+                <well column="23" row="10"/>
+                <well column="24" row="10"/>
+                <well column="1" row="11"/>
+                <well column="4" row="11"/>
+                <well column="6" row="11"/>
+                <well column="9" row="11"/>
+                <well column="11" row="11"/>
+                <well column="14" row="11"/>
+                <well column="16" row="11"/>
+                <well column="19" row="11"/>
+                <well column="21" row="11"/>
+                <well column="24" row="11"/>
+                <well column="1" row="12"/>
+                <well column="4" row="12"/>
+                <well column="6" row="12"/>
+                <well column="9" row="12"/>
+                <well column="11" row="12"/>
+                <well column="14" row="12"/>
+                <well column="16" row="12"/>
+                <well column="19" row="12"/>
+                <well column="21" row="12"/>
+                <well column="24" row="12"/>
+                <well column="1" row="13"/>
+                <well column="4" row="13"/>
+                <well column="6" row="13"/>
+                <well column="7" row="13"/>
+                <well column="8" row="13"/>
+                <well column="9" row="13"/>
+                <well column="11" row="13"/>
+                <well column="12" row="13"/>
+                <well column="13" row="13"/>
+                <well column="16" row="13"/>
+                <well column="17" row="13"/>
+                <well column="18" row="13"/>
+                <well column="19" row="13"/>
+                <well column="21" row="13"/>
+                <well column="22" row="13"/>
+                <well column="23" row="13"/>
+                <well column="24" row="13"/>
+                <well column="1" row="14"/>
+                <well column="4" row="14"/>
+                <well column="6" row="14"/>
+                <well column="9" row="14"/>
+                <well column="11" row="14"/>
+                <well column="14" row="14"/>
+                <well column="16" row="14"/>
+                <well column="21" row="14"/>
+                <well column="24" row="14"/>
+                <well column="1" row="15"/>
+                <well column="2" row="15"/>
+                <well column="3" row="15"/>
+                <well column="4" row="15"/>
+                <well column="6" row="15"/>
+                <well column="9" row="15"/>
+                <well column="11" row="15"/>
+                <well column="14" row="15"/>
+                <well column="16" row="15"/>
+                <well column="21" row="15"/>
+                <well column="24" row="15"/>
+              </wells>
+            </consumable>
+          </destinations>
+        </consumables>
+        <params>
+          <volume>25000</volume>
+          <tip change_before="true" change_between="false" filter="false" no_blow_out="false" touch_off="false" verify="false"/>
+          <precision required="false"/>
+          <operation alicots="1" speed="normal" type="forward"/>
+          <viscosity type="normal"/>
+          <cushion bottom="false" top="false"/>
+          <source>
+            <pipette_position height="0" policy="default" type="liquid"/>
+            <mixing number="0" speed="normal"/>
+          </source>
+          <destination>
+            <pipette_position height="0" policy="default" type="liquid"/>
+            <mixing number="0" speed="normal"/>
+          </destination>
+        </params>
+      </action>
+      <action level="0" position="2" type="pipette">
+        <message>pipetting</message>
+        <consumables>
+          <sources>
+            <consumable target="516A731A-2BC7-0321-742B-3F2C542953FF"/>
+          </sources>
+          <destinations>
+            <consumable target="F9DB029D-9778-1EC4-7EA4-3F1BC3F0D649">
+              <wells>
+                <well column="1" row="1"/>
+                <well column="2" row="1"/>
+                <well column="3" row="1"/>
+                <well column="4" row="1"/>
+                <well column="5" row="1"/>
+                <well column="6" row="1"/>
+                <well column="7" row="1"/>
+                <well column="8" row="1"/>
+                <well column="9" row="1"/>
+                <well column="10" row="1"/>
+                <well column="11" row="1"/>
+                <well column="12" row="1"/>
+                <well column="13" row="1"/>
+                <well column="14" row="1"/>
+                <well column="15" row="1"/>
+                <well column="16" row="1"/>
+                <well column="17" row="1"/>
+                <well column="18" row="1"/>
+                <well column="19" row="1"/>
+                <well column="20" row="1"/>
+                <well column="21" row="1"/>
+                <well column="22" row="1"/>
+                <well column="23" row="1"/>
+                <well column="24" row="1"/>
+                <well column="5" row="2"/>
+                <well column="10" row="2"/>
+                <well column="14" row="2"/>
+                <well column="16" row="2"/>
+                <well column="17" row="2"/>
+                <well column="18" row="2"/>
+                <well column="20" row="2"/>
+                <well column="22" row="2"/>
+                <well column="23" row="2"/>
+                <well column="2" row="3"/>
+                <well column="3" row="3"/>
+                <well column="5" row="3"/>
+                <well column="7" row="3"/>
+                <well column="8" row="3"/>
+                <well column="10" row="3"/>
+                <well column="12" row="3"/>
+                <well column="14" row="3"/>
+                <well column="16" row="3"/>
+                <well column="17" row="3"/>
+                <well column="18" row="3"/>
+                <well column="20" row="3"/>
+                <well column="22" row="3"/>
+                <well column="23" row="3"/>
+                <well column="4" row="4"/>
+                <well column="5" row="4"/>
+                <well column="7" row="4"/>
+                <well column="8" row="4"/>
+                <well column="10" row="4"/>
+                <well column="12" row="4"/>
+                <well column="14" row="4"/>
+                <well column="16" row="4"/>
+                <well column="18" row="4"/>
+                <well column="20" row="4"/>
+                <well column="23" row="4"/>
+                <well column="2" row="5"/>
+                <well column="3" row="5"/>
+                <well column="5" row="5"/>
+                <well column="9" row="5"/>
+                <well column="10" row="5"/>
+                <well column="12" row="5"/>
+                <well column="14" row="5"/>
+                <well column="16" row="5"/>
+                <well column="18" row="5"/>
+                <well column="20" row="5"/>
+                <well column="22" row="5"/>
+                <well column="2" row="6"/>
+                <well column="3" row="6"/>
+                <well column="5" row="6"/>
+                <well column="7" row="6"/>
+                <well column="8" row="6"/>
+                <well column="10" row="6"/>
+                <well column="12" row="6"/>
+                <well column="14" row="6"/>
+                <well column="16" row="6"/>
+                <well column="18" row="6"/>
+                <well column="20" row="6"/>
+                <well column="22" row="6"/>
+                <well column="23" row="6"/>
+                <well column="5" row="7"/>
+                <well column="7" row="7"/>
+                <well column="8" row="7"/>
+                <well column="10" row="7"/>
+                <well column="14" row="7"/>
+                <well column="15" row="7"/>
+                <well column="17" row="7"/>
+                <well column="19" row="7"/>
+                <well column="20" row="7"/>
+                <well column="22" row="7"/>
+                <well column="23" row="7"/>
+                <well column="1" row="8"/>
+                <well column="2" row="8"/>
+                <well column="3" row="8"/>
+                <well column="4" row="8"/>
+                <well column="5" row="8"/>
+                <well column="6" row="8"/>
+                <well column="7" row="8"/>
+                <well column="8" row="8"/>
+                <well column="9" row="8"/>
+                <well column="10" row="8"/>
+                <well column="11" row="8"/>
+                <well column="12" row="8"/>
+                <well column="13" row="8"/>
+                <well column="14" row="8"/>
+                <well column="15" row="8"/>
+                <well column="16" row="8"/>
+                <well column="17" row="8"/>
+                <well column="18" row="8"/>
+                <well column="19" row="8"/>
+                <well column="20" row="8"/>
+                <well column="21" row="8"/>
+                <well column="22" row="8"/>
+                <well column="23" row="8"/>
+                <well column="24" row="8"/>
+                <well column="1" row="9"/>
+                <well column="2" row="9"/>
+                <well column="3" row="9"/>
+                <well column="4" row="9"/>
+                <well column="5" row="9"/>
+                <well column="6" row="9"/>
+                <well column="7" row="9"/>
+                <well column="8" row="9"/>
+                <well column="9" row="9"/>
+                <well column="10" row="9"/>
+                <well column="11" row="9"/>
+                <well column="12" row="9"/>
+                <well column="13" row="9"/>
+                <well column="14" row="9"/>
+                <well column="15" row="9"/>
+                <well column="16" row="9"/>
+                <well column="17" row="9"/>
+                <well column="18" row="9"/>
+                <well column="19" row="9"/>
+                <well column="20" row="9"/>
+                <well column="21" row="9"/>
+                <well column="22" row="9"/>
+                <well column="23" row="9"/>
+                <well column="24" row="9"/>
+                <well column="5" row="10"/>
+                <well column="10" row="10"/>
+                <well column="15" row="10"/>
+                <well column="20" row="10"/>
+                <well column="2" row="11"/>
+                <well column="3" row="11"/>
+                <well column="5" row="11"/>
+                <well column="7" row="11"/>
+                <well column="8" row="11"/>
+                <well column="10" row="11"/>
+                <well column="12" row="11"/>
+                <well column="13" row="11"/>
+                <well column="15" row="11"/>
+                <well column="17" row="11"/>
+                <well column="18" row="11"/>
+                <well column="20" row="11"/>
+                <well column="22" row="11"/>
+                <well column="23" row="11"/>
+                <well column="2" row="12"/>
+                <well column="3" row="12"/>
+                <well column="5" row="12"/>
+                <well column="7" row="12"/>
+                <well column="8" row="12"/>
+                <well column="10" row="12"/>
+                <well column="12" row="12"/>
+                <well column="13" row="12"/>
+                <well column="15" row="12"/>
+                <well column="17" row="12"/>
+                <well column="18" row="12"/>
+                <well column="20" row="12"/>
+                <well column="22" row="12"/>
+                <well column="23" row="12"/>
+                <well column="2" row="13"/>
+                <well column="3" row="13"/>
+                <well column="5" row="13"/>
+                <well column="10" row="13"/>
+                <well column="14" row="13"/>
+                <well column="15" row="13"/>
+                <well column="20" row="13"/>
+                <well column="2" row="14"/>
+                <well column="3" row="14"/>
+                <well column="5" row="14"/>
+                <well column="7" row="14"/>
+                <well column="8" row="14"/>
+                <well column="10" row="14"/>
+                <well column="12" row="14"/>
+                <well column="13" row="14"/>
+                <well column="15" row="14"/>
+                <well column="17" row="14"/>
+                <well column="18" row="14"/>
+                <well column="19" row="14"/>
+                <well column="20" row="14"/>
+                <well column="22" row="14"/>
+                <well column="23" row="14"/>
+                <well column="5" row="15"/>
+                <well column="7" row="15"/>
+                <well column="8" row="15"/>
+                <well column="10" row="15"/>
+                <well column="12" row="15"/>
+                <well column="13" row="15"/>
+                <well column="15" row="15"/>
+                <well column="17" row="15"/>
+                <well column="18" row="15"/>
+                <well column="19" row="15"/>
+                <well column="20" row="15"/>
+                <well column="22" row="15"/>
+                <well column="23" row="15"/>
+                <well column="1" row="16"/>
+                <well column="2" row="16"/>
+                <well column="3" row="16"/>
+                <well column="4" row="16"/>
+                <well column="5" row="16"/>
+                <well column="6" row="16"/>
+                <well column="7" row="16"/>
+                <well column="8" row="16"/>
+                <well column="9" row="16"/>
+                <well column="10" row="16"/>
+                <well column="11" row="16"/>
+                <well column="12" row="16"/>
+                <well column="13" row="16"/>
+                <well column="14" row="16"/>
+                <well column="15" row="16"/>
+                <well column="16" row="16"/>
+                <well column="17" row="16"/>
+                <well column="18" row="16"/>
+                <well column="19" row="16"/>
+                <well column="20" row="16"/>
+                <well column="21" row="16"/>
+                <well column="22" row="16"/>
+                <well column="23" row="16"/>
+                <well column="24" row="16"/>
+              </wells>
+            </consumable>
+          </destinations>
+        </consumables>
+        <params>
+          <volume>20000</volume>
+          <tip change_before="true" change_between="false" filter="false" no_blow_out="false" touch_off="false" verify="false"/>
+          <precision required="false"/>
+          <operation alicots="1" speed="normal" type="forward"/>
+          <viscosity type="normal"/>
+          <cushion bottom="false" top="false"/>
+          <source>
+            <pipette_position height="0" policy="default" type="liquid"/>
+            <mixing number="0" speed="normal"/>
+          </source>
+          <destination>
+            <pipette_position height="0" policy="default" type="liquid"/>
+            <mixing number="0" speed="normal"/>
+          </destination>
+        </params>
+      </action>
+    </actions>
+  </data>
+</protocol>

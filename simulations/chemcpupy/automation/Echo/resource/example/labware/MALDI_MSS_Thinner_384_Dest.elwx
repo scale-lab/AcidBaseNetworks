@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<EchoLabware>
+     <destinationplates>
+          <plateinfo platetype="MALDI_MSS_Thinner_384_Dest" plateformat="MALDI_MSS_Thinner_384_Dest" usage="DEST" manufacturer="Bruker" lotnumber="" partnumber="" rows="16" cols="24" location="None" a1offsetx="12130" a1offsety="8990" centerspacingx="4500" centerspacingy="4500" plateheight="13000" skirtheight="2410" wellwidth="3300" welllength="3300" wellcapacity="0.5" bottominset="0" centerwellposx="105209" centerwellposy="40626.3" dropvolume="2.5" />
+     </destinationplates>
+</EchoLabware>

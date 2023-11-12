@@ -1,0 +1,11 @@
+PlateSheet vX,,,,,,,,,,
+,,,,,,,,,,
+Container,Barcode,Title,Author,Date,Description,,,,,
+384PP,0,Reagent Plate,Ahmed Agiza,11/10/20,reagent plate for acid/base dual-rail computing demo 1,,,,,
+,,,,,,,,,,
+Type,Name,CID,Mass,Solvent,Concentration,Volume,Start,End,Description,Formula
+acid,hydrochloric acid,313,A,water,100,45E-06,A1,A24,,ClH
+acid,hydrochloric acid,313,A,water,100,45E-06,B1,B24,,ClH
+base,sodium hydroxide,14797,B,water,100,45E-06,C1,C24,,NaOH
+base,sodium hydroxide,14797,B,water,100,45E-06,D1,D24,,NaOH
+water,water,105142,C,water,55,40E-06,E1,E24,,H2O

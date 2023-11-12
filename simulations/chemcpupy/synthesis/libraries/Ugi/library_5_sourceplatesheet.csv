@@ -1,0 +1,36 @@
+SourcePlateSheet v1.1,,,,,,,
+,,,,,,,
+Container,Barcode,Title,Author,Date,Description,,
+384PP,0,Reagents for Ugi Product,Chris Arcadia,8/30/18,Library 5 (reagent source plate),,
+,,,,,,,
+Type,Name,CID,Solvent,Concentration,Volume,Start,End
+amine,p-methoxybenzylamine,75452,DMSO,0.5,5.00E-05,A1,A1
+amine,pentylamine,8060,DMSO,0.5,5.00E-05,A2,A2
+amine,benzylamine,7504,DMSO,0.5,5.00E-05,A3,A3
+amine,4-methylbenzylamine,66035,DMSO,0.5,5.00E-05,A4,A4
+amine,4-tert-butylbenzylamine,2735655,DMSO,0.5,5.00E-05,A5,A5
+aldehyde,isobutyraldehyde,6561,DMSO,0.5,5.00E-05,C1,C1
+aldehyde,3-phenylpropionaldehyde,7707,DMSO,0.5,5.00E-05,C2,C2
+aldehyde,2-nitro-5-bromobenzaldehyde,97233,DMSO,0.5,5.00E-05,C3,C3
+aldehyde,2-nitro-4(trifluoromethyl)benzaldehyde,11160305,DMSO,0.5,5.00E-05,C4,C4
+aldehyde,cyclohexanecarboxaldehyde,16275,DMSO,0.5,5.00E-05,C5,C5
+carboxylic acid,4-pentenoic acid,61138,DMSO,0.5,5.00E-05,E1,E1
+carboxylic acid,Boc-L-phenylalanine,77857,DMSO,0.5,5.00E-05,E2,E2
+carboxylic acid,Boc-proline,85083,DMSO,0.5,5.00E-05,E3,E3
+carboxylic acid,Boc-L-methionine,89857,DMSO,0.5,5.00E-05,E4,E4
+carboxylic acid,Boc-N-methyl-L-Valine,7010608,DMSO,0.5,5.00E-05,E5,E5
+carboxylic acid,Boc-glycine,78288,DMSO,0.5,5.00E-05,E6,E6
+carboxylic acid,Boc-O-methyl tyrosine,2762280,DMSO,0.5,5.00E-05,E7,E7
+carboxylic acid,Boc-L-asparagine,82035,DMSO,0.5,5.00E-05,E8,E8
+carboxylic acid,1-methyl-2-pyrrole carboxylic acid,81453,DMSO,0.5,5.00E-05,E9,E9
+carboxylic acid,3-phenylpropionic acid,107,DMSO,0.5,5.00E-05,E10,E10
+carboxylic acid,3-(4-Methoxyphenyl)propionic acid,95750,DMSO,0.5,5.00E-05,E11,E11
+carboxylic acid,2-methylheptanoic acid,14475,DMSO,0.5,5.00E-05,E12,E12
+isocyanide,tert-butyl isocyanide,23577,DMSO,0.5,5.00E-05,G1,G1
+isocyanide,methyl isocyanoacetate,547815,DMSO,0.5,5.00E-05,G2,G2
+isocyanide,cyclohexyl isocyanide,79129,DMSO,0.5,5.00E-05,G3,G3
+isocyanide,benzyl isocyanide,82558,DMSO,0.5,5.00E-05,G4,G4
+isocyanide,2-napthyl isocyanide,16217475,DMSO,0.5,5.00E-05,G5,G5
+solvent,dimethyl sulfoxide,679,N/A,N/A,5.00E-05,M1,P24
+matrix,alpha-Cyano,5328791,DMSO,1.59E-02,5.00E-05,K1,K4
+aligner,alpha-Cyano,5328791,DMSO,1.59E-02,5.00E-05,K5,K5

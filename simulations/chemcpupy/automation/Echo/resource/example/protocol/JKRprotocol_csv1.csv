@@ -1,0 +1,17 @@
+﻿Source Plate Name,Source Plate Barcode,Source Plate Type,Source Well,Destination Plate Name,Destination Plate Barcode,Destination Plate Type,Destination Well,Destination Well X Offset,Destination Well Y Offset,Sample ID,Sample Name,Transfer Volume
+Source[1],,384PP_AQ_BP2,C12,Destination[1],,384PP_Dest,B2,0,0,,,100
+Source[1],,384PP_AQ_BP2,C12,Destination[1],,384PP_Dest,C2,0,0,,,100
+Source[1],,384PP_AQ_BP2,C12,Destination[1],,384PP_Dest,D2,0,0,,,100
+Source[1],,384PP_AQ_BP2,C12,Destination[1],,384PP_Dest,E2,0,0,,,100
+Source[1],,384PP_AQ_BP2,C12,Destination[1],,384PP_Dest,E3,0,0,,,100
+Source[1],,384PP_AQ_BP2,C12,Destination[1],,384PP_Dest,D3,0,0,,,100
+Source[1],,384PP_AQ_BP2,C12,Destination[1],,384PP_Dest,C3,0,0,,,100
+Source[1],,384PP_AQ_BP2,C12,Destination[1],,384PP_Dest,B3,0,0,,,100
+Source[1],,384PP_AQ_BP2,C12,Destination[1],,384PP_Dest,B4,0,0,,,100
+Source[1],,384PP_AQ_BP2,C12,Destination[1],,384PP_Dest,C4,0,0,,,100
+Source[1],,384PP_AQ_BP2,C12,Destination[1],,384PP_Dest,D4,0,0,,,100
+Source[1],,384PP_AQ_BP2,C12,Destination[1],,384PP_Dest,E4,0,0,,,100
+Source[1],,384PP_AQ_BP2,C12,Destination[1],,384PP_Dest,E5,0,0,,,100
+Source[1],,384PP_AQ_BP2,C12,Destination[1],,384PP_Dest,D5,0,0,,,100
+Source[1],,384PP_AQ_BP2,C12,Destination[1],,384PP_Dest,C5,0,0,,,100
+Source[1],,384PP_AQ_BP2,C12,Destination[1],,384PP_Dest,B5,0,0,,,100

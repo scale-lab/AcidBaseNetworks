@@ -1,0 +1,21 @@
+Run ID,1527104273
+Run Date/Time,2018-05-23 15:38:47
+Application Name,Labcyte Echo Plate Reformat
+Application Version,1.6.4
+Protocol Name,Protocol 5.epr
+User Name,Labcyte Echo
+
+[DETAILS]
+Source Plate Name,Source Plate Barcode,Source Plate Type,Source Well,Survey Fluid Height,Survey Fluid Volume,Fluid Composition,Fluid Units,Fluid Type,Survey Status
+Source[1],UnknownBarCode,384PP_DMSO2,A10,3.984,58.36,70.487,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A9,3.994,58.502,70.487,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A11,3.978,58.288,70.487,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,B9,3.831,56.199,70.487,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,B10,3.908,57.291,70.487,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,B11,3.844,56.412,71.271,Percent,DMSO,
+
+Instrument Name,E5XX-18021
+Instrument Model,Echo 550
+Instrument Serial Number,E5XX-18021
+Instrument Software Version,2.6.0
+

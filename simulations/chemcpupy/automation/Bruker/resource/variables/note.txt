@@ -1,0 +1,19 @@
+These XML files^ show the variable definitions used by CompassXtract app. 
+
+They are currently not used as resources by any of the conversion code/scripts.
+
+^Taken from: "C:\Program Files (x86)\Bruker Daltonik\CompassXtract"
+
+According to "CompassXport Operation Manual 3.0.9.2
+"*:
+
+> MALDI data needs parameter definition tables to be successfully exported. 
+> Two tables (in xml format) are installed alongside CompassXport.exe: 
+> FlexVariableTable.xml and ICRVariableTable.xml.
+> If you plan to call CompassXport via COM, you need to copy these 2 XMLs 
+> into the same directory as your calling program. E.g. for VBScript this is 
+> C:\Windows\System32 or C:\Windows\SysWow32\ (Windows 64 Bit)
+
+*which found here: https://www.bruker.com/fileadmin/user_upload/3-Service/Support/Separations_MassSpectrometry/Software/Compass_Tools/CompassXport_3.0.9.2_Manual.pdf
+
+(Note * is an older version of the manual and that new ones explicitly say that copying these files in no longer necessary.)

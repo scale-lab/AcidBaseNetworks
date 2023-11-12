@@ -1,0 +1,44 @@
+SourcePlateSheet v1.1,,,,,,,,,
+,,,,,,,,,
+Container,Barcode,Title,Author,Date,Description,,,,
+384PP,0,Reagents for Ugi Product,Chris Arcadia,2/19/19,Library 7 (reagent source plate) - Note:  ketones are labeled as aldehydes  for the sake of programming the Ugi reactions (as the second input to the reaction),,,,
+,,,,,,,,,
+Type,Name,CID,Solvent,Concentration,Volume,Start,End,Formula,Note
+amine,benzylamine,7504,DMSO,0.5,6.00E-05,A1,A2,,
+amine,4-methylbenzylamine,66035,DMSO,0.5,6.00E-05,A3,A4,,* 4-methylbenzylamine used instead of 4-chlorobenzylamine (as was initially planned)
+amine,p-methoxybenzylamine,75452,DMSO,0.5,6.00E-05,A5,A6,,
+amine,4-tert-butylbenzylamine,2735655,DMSO,0.5,6.00E-05,A7,A8,,
+carboxylic acid,Boc-L-phenylalanine,77857,DMSO,0.5,6.00E-05,A11,A12,,
+carboxylic acid,Boc-glycine,78288,DMSO,0.5,6.00E-05,A13,A14,,
+carboxylic acid,Boc-proline,85083,DMSO,0.5,6.00E-05,A15,A16,,
+carboxylic acid,N-Boc homobeta-glutamine,2761810,DMSO,0.5,6.00E-05,A17,A18,,
+isocyanide,benzyl isocyanide,82558,DMSO,0.5,6.00E-05,C1,C2,,
+isocyanide,cyclohexyl isocyanide,79129,DMSO,0.5,6.00E-05,C3,C4,,
+isocyanide,ethyl isocyanoacetate,533707,DMSO,0.5,6.00E-05,C5,C6,,* ethyl isocyanoacetate used instead of 2-napthyl isocyanide (as was initially planned)
+isocyanide,methyl isocyanoacetate,547815,DMSO,0.5,6.00E-05,C7,C8,,
+aldehyde,2-pyridinecarboxaldehyde,14273,DMSO,0.5,6.00E-05,E1,E2,,true aldehyde
+aldehyde,cyclohexanecarboxaldehyde,16275,DMSO,0.5,6.00E-05,E3,E4,,true aldehyde
+aldehyde,formaldehyde,712,DMSO,0.5,6.00E-05,E5,E6,,true aldehyde
+aldehyde,acetaldehyde,177,DMSO,0.5,6.00E-05,E7,E8,,true aldehyde
+aldehyde,1-methylpiperidine-4-carbaldehyde,12535228,DMSO,0.5,6.00E-05,E9,E10,,true aldehyde
+aldehyde,1-benzylpiperidine-4-carbaldehyde,89584,DMSO,0.5,6.00E-05,E11,E12,,true aldehyde
+aldehyde,propionaldehyde,527,DMSO,0.5,6.00E-05,E13,E14,,true aldehyde
+aldehyde,butyraldehyde,261,DMSO,0.5,6.00E-05,E15,E16,,true aldehyde
+aldehyde,N-formylpiperidine,17429,DMSO,0.5,6.00E-05,E17,E18,,true aldehyde
+aldehyde,1-formylpyrrolidine,77372,DMSO,0.5,6.00E-05,E19,E20,,true aldehyde
+aldehyde,4-formylmorpholine,20417,DMSO,0.5,6.00E-05,E21,E22,,true aldehyde
+aldehyde,furfural ,7362,DMSO,0.5,6.00E-05,E23,E24,,true aldehyde
+aldehyde,cyclopentanone,8452,DMSO,0.5,6.00E-05,G1,G2,,false aldehyde
+aldehyde,cyclohexanone,7967,DMSO,0.5,6.00E-05,G3,G4,,false aldehyde (actually a ketone)
+aldehyde,dicyclopentylmethanone,3816362,DMSO,0.5,6.00E-05,G5,G6,,false aldehyde (actually a ketone)
+aldehyde,dicyclohexyl ketone,8403,DMSO,0.5,6.00E-05,G7,G8,,false aldehyde (actually a ketone)
+aldehyde,1-methyl-4-piperidone,74049,DMSO,0.5,6.00E-05,G9,G10,,false aldehyde (actually a ketone)
+aldehyde,1-benzyl-4-piperidone,19220,DMSO,0.5,6.00E-05,G11,G12,,false aldehyde (actually a ketone)
+aldehyde,3-pentanone,7288,DMSO,0.5,6.00E-05,G13,G14,,false aldehyde (actually a ketone)
+aldehyde,4-heptanone,31246,DMSO,0.5,6.00E-05,G15,G16,,false aldehyde (actually a ketone)
+aldehyde,methyl ethyl ketone,6569,DMSO,0.5,6.00E-05,G17,G18,,false aldehyde (actually a ketone)
+aldehyde,cyclohexyl phenyl  ketone,12837,DMSO,0.5,6.00E-05,G19,G20,,false aldehyde (actually a ketone)
+aldehyde,isobutyrophenone,69144,DMSO,0.5,6.00E-05,G21,G22,,false aldehyde (actually a ketone)
+aldehyde,1-ethyl-4-piperidone,77159,DMSO,0.5,6.00E-05,G23,G24,,false aldehyde (actually a ketone)
+solvent,dimethyl sulfoxide,679,N/A,N/A,6.00E-05,I1,P24,,
+matrix,alpha-Cyano,5328791,DMSO,1.76E-01,6.00E-05,A21,A24,,

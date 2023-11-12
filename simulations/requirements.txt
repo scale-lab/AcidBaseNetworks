@@ -1,0 +1,9 @@
+h5py==3.1.0
+matplotlib==3.0.2
+numpy==1.20.1
+pandas==1.1.5
+scipy==1.6.0
+PubChemPy==1.0.4
+pyteomics==4.4.1
+lxml==4.6.2
+openpyxl==3.0.6

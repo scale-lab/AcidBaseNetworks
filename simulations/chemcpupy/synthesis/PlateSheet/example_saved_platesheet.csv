@@ -1,0 +1,10 @@
+PlateSheet v1.0,
+,
+Plate,Barcode,Title,Author,Date,Description
+384,0,Example,Chris Arcadia,2018/08/30 15:14,an example platesheet
+,
+Type,Name,ID [PubChem],Concentration [M],Volume [L],Positions
+amine,paramethoxybenzlamine,75452,4.0,1e-05,A1:J17
+aldehyde,2-nitrobenzaldehyde,11101,4.0,1e-05,A1:E17
+carboxylic acid,Boc-O-benzyl-L-beta-homotyrosine,2761555,4.0,1e-05,A1:J1
+isocyanide,methyl-isocyanoacetate,547815,3.0; 4.0,1e-05,A1:A17; F1:F17

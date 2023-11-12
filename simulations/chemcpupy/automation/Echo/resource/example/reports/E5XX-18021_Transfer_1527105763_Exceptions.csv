@@ -1,0 +1,7 @@
+Source Plate Name,Source Plate Barcode,Source Plate Type,Source Well,Destination Plate Name,Destination Plate Barcode,Destination Plate Type,Destination Well,Destination Well X Offset,Destination Well Y Offset,Sample ID,Sample Name,Transfer Volume,Actual Volume,Current Fluid Volume,Fluid Composition,Fluid Units,Fluid Type,Transfer Status
+Source[1],,384PP_DMSO2,F5,Destination[1],,MALDI_MSS_Thin_384_Dest,A1,0,0,,,500,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+Source[1],,384PP_DMSO2,F5,Destination[1],,MALDI_MSS_Thin_384_Dest,A2,0,0,,,500,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+Source[1],,384PP_DMSO2,F5,Destination[1],,MALDI_MSS_Thin_384_Dest,A3,0,0,,,500,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+Source[1],,384PP_DMSO2,F5,Destination[1],,MALDI_MSS_Thin_384_Dest,A4,0,0,,,500,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+Source[1],,384PP_DMSO2,F5,Destination[1],,MALDI_MSS_Thin_384_Dest,A5,0,0,,,500,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+

@@ -1,0 +1,20 @@
+PlateSheet v1.1,,,,,,,
+,,,,,,,
+Container,Barcode,Title,Author,Date,Description,,
+384PP,0,Reagents for Ugi Product,Chris Arcadia,6/1/18,Library 4 subset,,
+,,,,,,,
+Type,Name,CID,Solvent,Concentration,Volume,Start,End
+amine,4-methybenzylamine,66035,DMSO,4,1.00E-05,A1,C1
+amine,4-methybenzylamine,66035,DMSO,4,1.00E-05,A5,C5
+amine,4-tert-butylbenzylamine,2735655,DMSO,4,1.00E-05,A2,C2
+amine,4-tert-butylbenzylamine,2735655,DMSO,4,1.00E-05,A6,C6
+amine,p-methoxybenzylamine,75452,DMSO,4,1.00E-05,A3,C3
+amine,p-methoxybenzylamine,75452,DMSO,4,1.00E-05,A7,C7
+amine,benzylamine,7504,DMSO,4,1.00E-05,A4,C4
+amine,benzylamine,7504,DMSO,4,1.00E-05,A8,C8
+aldehyde,heptanal,8130,DMSO,4,1.00E-05,A1,A8
+aldehyde,cyclohexanecarboxaldehyde,16275,DMSO,4,1.00E-05,B1,B8
+aldehyde,3-phenylpropionaldehyde,7707,DMSO,4,1.00E-05,C1,C8
+carboxylic acid,3-phenylpropionic acid,107,DMSO,4,1.00E-05,A1,C4
+carboxylic acid,3-4-methoxyphenylpropionic acid,95750,DMSO,4,1.00E-05,A5,C8
+isocyanide,tert-butyl isocyanide,23577,DMSO,4,1.00E-05,A1,C8

@@ -1,0 +1,7 @@
+**/__pycache__/**
+**.pyc
+**/**/*.pyc
+*.pyc
+**/__temporary__/**
+venv
+*.log

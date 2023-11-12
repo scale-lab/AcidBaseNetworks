@@ -1,0 +1,18 @@
+SourcePlateSheet v1.1,,,,,,,,
+,,,,,,,,
+Container,Barcode,Title,Author,Date,Description,,,
+384PP,0,Reagents for Ugi Product formation,Chris Arcadia,11/22/19,source plate sheet for Library 10,,,
+,,,,,,,,
+Type,Name,CID,Solvent,Concentration,Volume,Start,End,Note
+amine,p-methoxybenzylamine,75452,DMSO,0.5,5.00E-05,A1,A5,from Library 5
+amine,4-methylbenzylamine,66035,DMSO,0.5,5.00E-05,A6,A10,from Library 5
+aldehyde,3-phenylpropionaldehyde,7707,DMSO,0.5,5.00E-05,C1,C5,from Library 5
+aldehyde,2-nitro-5-bromobenzaldehyde,97233,DMSO,0.5,5.00E-05,C6,C10,from Library 5
+carboxylic acid,Boc-L-phenylalanine,77857,DMSO,0.5,5.00E-05,E1,E5,from Library 5
+carboxylic acid,Boc-N-methyl-L-Valine,7010608,DMSO,0.5,5.00E-05,E6,E10,from Library 5
+isocyanide,methyl isocyanoacetate,547815,DMSO,0.5,5.00E-05,G1,G5,from Library 5
+isocyanide,cyclohexyl isocyanide,79129,DMSO,0.5,5.00E-05,G6,G10,from Library 5
+isocyanide,benzyl isocyanide,82558,DMSO,0.5,5.00E-05,G11,G15,from Library 5
+solvent,dimethyl sulfoxide,679,N/A,N/A,5.00E-05,I1,P24,skip dilution
+matrix,alpha-Cyano,5328791,DMSO,2.64E-02,5.00E-05,A21,A24,
+aligner,alpha-Cyano,5328791,DMSO,2.64E-02,5.00E-05,B24,B24,

@@ -1,0 +1,21 @@
+SourcePlateSheet v1.1,,,,,,,,
+,,,,,,,,
+Container,Barcode,Title,Author,Date,Description,,,
+384PP,0,Reagents for Ugi Product formation,Chris Arcadia,8/29/2019,source plate sheet for Library 8,,,
+,,,,,,,,
+Type,Name,CID,Solvent,Concentration,Volume,Start,End,Note
+amine,benzylamine,7504,DMSO,0.5,5.00E-05,A1,A6,from Library 6b
+amine,4-chlorobenzylamine,66036,DMSO,0.5,5.00E-05,A7,A12,from Library 6b
+amine,p-methoxybenzylamine,75452,DMSO,0.5,5.00E-05,A13,A18,from Library 6b
+aldehyde,valeradlehyde,8063,DMSO,0.5,5.00E-05,C1,C6,from Library 6b
+aldehyde,isovaleraldehyde,11552,DMSO,0.5,5.00E-05,C7,C12,from Library 6b
+aldehyde,cyclohexanecarboxaldehyde,16275,DMSO,0.5,5.00E-05,C13,C18,from Library 6b (used in time evolution study)
+carboxylic acid,Boc-proline,85083,DMSO,0.5,5.00E-05,E1,E6,from Library 6b
+carboxylic acid,Boc-N-methyl L phenylalanine,7010602,DMSO,0.5,5.00E-05,E7,E12,from Library 6b (used in time evolution study)
+carboxylic acid,Boc-L-betahomomethionine,16211045,DMSO,0.5,5.00E-05,E13,E18,from Library 6b
+isocyanide,cyclohexyl isocyanide,79129,DMSO,0.5,5.00E-05,G1,G6,from Library 6b
+isocyanide,benzyl isocyanide,82558,DMSO,0.5,5.00E-05,G7,G12,from Library 6b (used in time evolution study)
+isocyanide,2-napthyl isocyanide,16217475,DMSO,0.5,5.00E-05,G13,G18,from Library 6b
+solvent,dimethyl sulfoxide,679,N/A,N/A,5.00E-05,I1,P24,
+matrix,alpha-Cyano,5328791,DMSO,2.64E-02,5.00E-05,A21,A24,
+aligner,alpha-Cyano,5328791,DMSO,2.64E-02,5.00E-05,B24,B24,

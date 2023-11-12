@@ -1,0 +1,37 @@
+PlateSheet v1.1,,,,,,,
+,,,,,,,
+Container,Barcode,Title,Author,Date,Description,,
+384PP,0,Reagents for Ugi Product,Chris Arcadia,6/1/18,Library 3,,
+,,,,,,,
+Type,Name,CID,Solvent,Concentration,Volume,Start,End
+,,,,,,,
+aldehyde,2-nitrobenzaldehyde,11101,DMSO,4,1.00E-05,A1,E17
+aldehyde,isobutyraldehyde,6561,DMSO,4,1.00E-05,F1,J17
+amine,paramethoxybenzlamine ,75452,DMSO,4,1.00E-05,A1,J17
+carboxylic acid,Boc-O-benzyl L-beta-homotyrosine,2761555,DMSO,4,1.00E-05,A1,J1
+carboxylic acid,Boc-L-beta-homoleucine,2761526,DMSO,4,1.00E-05,A2,J2
+carboxylic acid,Boc-L-glutamic Acid gamma-benzyl ester,83589,DMSO,4,1.00E-05,A3,J3
+carboxylic acid,Boc-L-phenylalanine,77857,DMSO,4,1.00E-05,A4,J4
+carboxylic acid,Boc-Proline,85083,DMSO,4,1.00E-05,A5,J5
+carboxylic acid,Boc-O-benzyl-L-tyrosine,98763,DMSO,4,1.00E-05,A6,J6
+carboxylic acid,Boc-L-betahomomethionine,16211045,DMSO,4,1.00E-05,A7,J7
+carboxylic acid,Boc-N alpha-Formyl N-epsilon  Lysine,1581890,DMSO,4,1.00E-05,A8,J8
+carboxylic acid,Boc-L-methionine,89857,DMSO,4,1.00E-05,A9,J9
+carboxylic acid,N-Boc homobeta_glutamine,2761810,DMSO,4,1.00E-05,A10,J10
+carboxylic acid,Boc-N-methyl L-phenylalanine,7010602,DMSO,4,1.00E-05,A11,J11
+carboxylic acid,Boc-N-methyl-L-Valine,7010608,DMSO,4,1.00E-05,A12,J12
+carboxylic acid,Boc-Glycine,78288,DMSO,4,1.00E-05,A13,J13
+carboxylic acid,Boc- Formyl-N L-Tryptophan,7017963,DMSO,4,1.00E-05,A14,J14
+carboxylic acid,Boc-O-methyl tyrosine,2762280,DMSO,4,1.00E-05,A15,J15
+carboxylic acid,Boc-N alpha-Acetyl N-epsilon  Lysine,7016049,DMSO,4,1.00E-05,A16,J16
+carboxylic acid,Boc-L-asparagine,82035,DMSO,4,1.00E-05,A17,J17
+isocyanide,methyl isocyanoacetate,547815,DMSO,4,1.00E-05,A1,A17
+isocyanide,tertbutyl isocyanide,3301780,DMSO,4,1.00E-05,B1,B17
+isocyanide,cyclohexyl isocyanide,79129,DMSO,4,1.00E-05,C1,C17
+isocyanide,benzyl isocyanide,82558,DMSO,4,1.00E-05,D1,D17
+isocyanide,2-naphthyl isocyanide,16217475,DMSO,4,1.00E-05,E1,E17
+isocyanide,methyl isocyanoacetate,547815,DMSO,4,1.00E-05,F1,F17
+isocyanide,tertbutyl isocyanide,3301780,DMSO,4,1.00E-05,G1,G17
+isocyanide,cyclohexyl isocyanide,79129,DMSO,4,1.00E-05,H1,H17
+isocyanide,benzyl isocyanide,82558,DMSO,4,1.00E-05,I1,I17
+isocyanide,2-naphthyl isocyanide,16217475,DMSO,4,1.00E-05,J1,J17

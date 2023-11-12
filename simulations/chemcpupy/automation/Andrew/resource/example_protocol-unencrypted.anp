@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<protocol version="1.5.2">
+  <public>
+    <last_modification_date><![CDATA[Mon Mar 19 18:04:41 GMT+0100 2018]]></last_modification_date>
+    <revision><![CDATA[4]]></revision>
+    <name><![CDATA[New protocol]]></name>
+    <creation_date><![CDATA[Fri Mar 16 19:48:05 GMT+0100 2018]]></creation_date>
+    <id/>
+    <description/>
+    <icon default="true"><![CDATA[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]]></icon>
+  </public>
+  <data>
+    <private>
+      <author/>
+      <author_email/>
+      <pipetting_policy><![CDATA[rows]]></pipetting_policy>
+    </private>
+    <library>
+      <consumable shortname="MTP384" type="microplate384" preparation="group" version="2" id="microplate384">
+        <name><![CDATA[384-well plate]]></name>
+        <display_name><![CDATA[MTP384]]></display_name>
+        <description><![CDATA[Generic microplate with 384 wells. This consumable describes typical square-shaped wells of capacity below 120 uL - with exclusion of 384-wells PCR microplates]]></description>
+        <category favorite="true"><![CDATA[Microplates]]></category>
+        <volumes dead="10000" max="120000"/>
+        <size columns="24" rows="16"/>
+      </consumable>
+      <consumable shortname="TB50" type="tube50" preparation="individual" version="2" id="tube50">
+        <name><![CDATA[50 mL conical centrifuge tube]]></name>
+        <display_name><![CDATA[TUBE 50]]></display_name>
+        <description><![CDATA[Plastic 50 mL tube, conical bottom (without skirt) and screwable cap. Also called Falcon tube or centrifuge tube]]></description>
+        <category favorite="true"><![CDATA[Tubes]]></category>
+        <volumes dead="500000" max="50000000"/>
+      </consumable>
+    </library>
+    <stock_solutions>
+      <stock_solution id="F618075D-BEE5-7EA2-7583-30243CDA1B49">
+        <name><![CDATA[previous]]></name>
+        <color>13047173</color>
+        <concentration unit="a.u.">1</concentration>
+      </stock_solution>
+      <stock_solution id="E3027BD2-9BA6-8B6E-DEB2-3025E6A3304B">
+        <name><![CDATA[dyed solution]]></name>
+        <color>16711935</color>
+        <concentration unit="a.u.">1</concentration>
+      </stock_solution>
+    </stock_solutions>
+    <consumables>
+      <consumable pattern="microplate384" y="228" id="C355B49D-4F0C-6660-2EC8-3023F02B0010" x="300">
+        <label><![CDATA[384-well plate #1]]></label>
+        <required>true</required>
+        <wells>
+          <well column="1" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="2" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="3" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="4" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="5" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="6" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="7" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="8" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="9" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="10" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="11" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="12" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="13" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="14" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="15" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="16" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="17" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="18" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="19" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="20" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="21" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="22" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="23" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="24" row="1">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="1" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="2" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="3" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="4" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="5" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="6" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="7" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="8" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="9" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="10" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="11" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="12" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="13" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="14" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="15" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="16" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="17" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="18" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="19" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="20" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="21" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="22" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="23" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="24" row="2">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="1" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="2" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="3" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="4" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="5" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="6" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="7" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="8" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="9" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="10" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="11" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="12" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="13" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="14" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="15" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="16" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="17" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="18" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="19" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="20" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="21" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="22" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="23" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="24" row="3">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="1" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="2" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="3" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="4" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="5" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="6" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="7" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="8" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="9" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="10" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="11" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="12" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="13" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="14" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="15" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="16" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="17" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="18" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="19" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="20" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="21" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="22" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="23" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="24" row="4">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="1" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="2" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="3" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="4" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="5" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="6" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="7" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="8" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="9" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="10" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="11" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="12" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="13" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="14" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="15" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="16" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="17" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="18" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="19" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="20" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="21" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="22" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="23" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="24" row="5">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="1" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="2" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="3" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="4" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="5" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="6" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="7" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="8" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="9" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="10" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="11" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="12" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="13" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="14" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="15" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="16" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="17" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="18" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="19" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="20" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="21" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="22" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="23" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+          <well column="24" row="6">
+            <stock_solution color="13047173" volume="10000" stock_solution_id="F618075D-BEE5-7EA2-7583-30243CDA1B49"/>
+          </well>
+        </wells>
+      </consumable>
+      <consumable pattern="tube50" y="308" id="88AC8A29-CDE8-601C-CB75-3025CC1BFBA3" x="650">
+        <label><![CDATA[dyed solution]]></label>
+        <required>true</required>
+        <stock_solution color="16711935" volume="30000000" stock_solution_id="E3027BD2-9BA6-8B6E-DEB2-3025E6A3304B"/>
+      </consumable>
+    </consumables>
+    <set id="1000G" description="Gilson PIPETMAN Classic™" name="1000G">
+      <pipette>
+        <type><![CDATA[P2]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="15032858"/>
+        <volumes elution_max="2000" min="200" max="2000" elution_min="200"/>
+        <tips cork_ratio="0.65" cork_color="14037811" name="D10"/>
+        <tips_filter cork_ratio="0.65" cork_color="14037811" name="DF10"/>
+        <waste_volume>2000</waste_volume>
+      </pipette>
+      <pipette>
+        <type><![CDATA[P20]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="14340267"/>
+        <volumes aliquot_max="20000" aliquot_min="2000" max="20000" elution_max="20000" min="2000" elution_min="2000"/>
+        <tips cork_ratio="0.85" cork_color="14209102" name="D200"/>
+        <tips_filter cork_ratio="0.85" cork_color="14209102" name="DF30"/>
+        <waste_volume>10000</waste_volume>
+      </pipette>
+      <pipette>
+        <type><![CDATA[P100]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="16426375"/>
+        <volumes aliquot_max="100000" aliquot_min="2000" max="100000" elution_max="100000" min="20000" elution_min="10000"/>
+        <tips cork_ratio="0.85" cork_color="14209102" name="D200"/>
+        <tips_filter cork_ratio="0.85" cork_color="14209102" name="DF100"/>
+        <waste_volume>10000</waste_volume>
+      </pipette>
+      <pipette>
+        <type><![CDATA[P200]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="15582783"/>
+        <volumes aliquot_max="200000" aliquot_min="10000" max="200000" elution_max="200000" min="50000" elution_min="10000"/>
+        <tips cork_ratio="0.85" cork_color="14209102" name="D200"/>
+        <tips_filter cork_ratio="0.85" cork_color="14209102" name="DF200"/>
+        <waste_volume>30000</waste_volume>
+      </pipette>
+      <pipette>
+        <type><![CDATA[P1000]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="2134493"/>
+        <volumes aliquot_max="1000000" aliquot_min="50000" max="1000000" elution_max="1000000" min="200000" elution_min="50000"/>
+        <tips cork_ratio="1" cork_color="3041480" name="D1000"/>
+        <tips_filter cork_ratio="1" cork_color="3041480" name="DF1000"/>
+        <waste_volume>200000</waste_volume>
+      </pipette>
+    </set>
+    <actions>
+      <action position="1" level="0" type="pipette">
+        <consumables>
+          <sources>
+            <consumable target="88AC8A29-CDE8-601C-CB75-3025CC1BFBA3"/>
+          </sources>
+          <destinations>
+            <consumable target="C355B49D-4F0C-6660-2EC8-3023F02B0010">
+              <wells>
+                <well column="4" row="8"/>
+                <well column="7" row="8"/>
+                <well column="4" row="9"/>
+                <well column="7" row="9"/>
+                <well column="11" row="9"/>
+                <well column="4" row="10"/>
+                <well column="7" row="10"/>
+                <well column="4" row="11"/>
+                <well column="5" row="11"/>
+                <well column="6" row="11"/>
+                <well column="7" row="11"/>
+                <well column="11" row="11"/>
+                <well column="4" row="12"/>
+                <well column="7" row="12"/>
+                <well column="11" row="12"/>
+                <well column="4" row="13"/>
+                <well column="7" row="13"/>
+                <well column="11" row="13"/>
+                <well column="4" row="14"/>
+                <well column="7" row="14"/>
+                <well column="11" row="14"/>
+              </wells>
+            </consumable>
+          </destinations>
+        </consumables>
+        <params>
+          <volume>100000</volume>
+          <tip change_before="true" touch_off="false" filter="false" change_between="false" verify="false" no_blow_out="false"/>
+          <precision required="false"/>
+          <operation speed="normal" type="forward" alicots="-1"/>
+          <viscosity type="normal"/>
+          <cushion bottom="false" top="false"/>
+          <source>
+            <pipette_position height="0" type="liquid" policy="default"/>
+            <mixing speed="normal" number="0"/>
+          </source>
+          <destination>
+            <pipette_position height="0" type="bottom" policy="default"/>
+            <mixing speed="normal" number="0"/>
+          </destination>
+        </params>
+      </action>
+    </actions>
+  </data>
+</protocol>

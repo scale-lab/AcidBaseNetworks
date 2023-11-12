@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <set id="1000G" description="Gilson PIPETMAN Classic™" name="1000G">
+      <pipette>
+        <type><![CDATA[P2]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="15032858"/>
+        <volumes elution_max="2000" min="200" max="2000" elution_min="200"/>
+        <tips cork_ratio="0.65" cork_color="14037811" name="D10"/>
+        <tips_filter cork_ratio="0.65" cork_color="14037811" name="DF10"/>
+        <waste_volume>2000</waste_volume>
+      </pipette>
+      <pipette>
+        <type><![CDATA[P20]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="14340267"/>
+        <volumes aliquot_max="20000" aliquot_min="2000" max="20000" elution_max="20000" min="2000" elution_min="2000"/>
+        <tips cork_ratio="0.85" cork_color="14209102" name="D200"/>
+        <tips_filter cork_ratio="0.85" cork_color="14209102" name="DF30"/>
+        <waste_volume>10000</waste_volume>
+      </pipette>
+      <pipette>
+        <type><![CDATA[P100]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="16426375"/>
+        <volumes aliquot_max="100000" aliquot_min="2000" max="100000" elution_max="100000" min="20000" elution_min="10000"/>
+        <tips cork_ratio="0.85" cork_color="14209102" name="D200"/>
+        <tips_filter cork_ratio="0.85" cork_color="14209102" name="DF100"/>
+        <waste_volume>10000</waste_volume>
+      </pipette>
+      <pipette>
+        <type><![CDATA[P200]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="15582783"/>
+        <volumes aliquot_max="200000" aliquot_min="10000" max="200000" elution_max="200000" min="50000" elution_min="10000"/>
+        <tips cork_ratio="0.85" cork_color="14209102" name="D200"/>
+        <tips_filter cork_ratio="0.85" cork_color="14209102" name="DF200"/>
+        <waste_volume>30000</waste_volume>
+      </pipette>
+      <pipette>
+        <type><![CDATA[P1000]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="2134493"/>
+        <volumes aliquot_max="1000000" aliquot_min="50000" max="1000000" elution_max="1000000" min="200000" elution_min="50000"/>
+        <tips cork_ratio="1" cork_color="3041480" name="D1000"/>
+        <tips_filter cork_ratio="1" cork_color="3041480" name="DF1000"/>
+        <waste_volume>200000</waste_volume>
+      </pipette>
+    </set>

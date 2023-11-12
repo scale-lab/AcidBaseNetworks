@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<protocol version="1.5.2">
+  <public>
+    <id/>
+    <description/>
+    <name><![CDATA[Brown University DARPA]]></name>
+    <revision><![CDATA[13]]></revision>
+    <creation_date><![CDATA[Mon Mar 19 17:33:28 GMT+0100 2018]]></creation_date>
+    <last_modification_date><![CDATA[Thu Mar 29 09:40:04 GMT+0200 2018]]></last_modification_date>
+    <icon default="true"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAAcwAAAFECAYAAACqOA4zAAAfE0lEQVR42u3dW5CeU+Lv8bnd1/t2
+X+/b//W+3VWUFIWiUEIJyiklM0acD8MwCOPMMDIOQUQSExIhdBIm7IgYw2xCCIXE+ZA4RpxZe36r
+6nn306/upJP04e03n0/VU+m304dXR/e311rPs57fFABgh37jSwAAggkAggkAggkAggkAggkAggkA
+ggkACCYACCYACCYACCYACCYACCYACCYAIJgAIJgAIJgAIJgAIJgAIJgAIJgAIJgAgGACgGACgGAC
+gGACgGACgGACgGACAIIJAIIJAIIJAIIJAIIJAIIJAIIJAAgmAAgmAAgmAAgmAAgmAAgmAAgmAAgm
+ACCYACCYACCYACCYACCYACCYACCYAIBgAoBgAoBgAoBgAoBgAoBgAoBgAgCCCQCCCQCCCQCCCQCC
+CQCCCQCCCQCCCQAIJgAIJgAIJgAIJgAIJgAIJgAIJgAgmAAgmAAgmAAgmAAgmAAgmAAgmAAgmACA
+YAKAYAKAYAKAYAKAYAKAYAKAYAIAggkAggkAggkAggkAggkAggkAggkACCYACCYACCYACCZUW7Zs
+KR988MGwR/4eQDDZ4ySCzz33XFm6dGmZM2dO/TNHXjfUsWrVqrJo0aL6Nq+99pqAAoJJ/48k582b
+V+O3Zs2a8v777+/U+3/33Xdl3bp1NaDLly8vW7du9UUFBJP+sXHjxjo6HBgYKF999dWofMzENh8z
+8TTiBASTST+iTNQyouweTW7evLls2LChBm/V3AfL0qvn/OpYNXtRee7e5eW55f+nvu1Qsc3HzcfP
+x/n+++990QHBZHLJ1GnWJxO6tkyrrln6WHnuonvLhvMWljL94REd381YWt9+3XUPljWPPfGreGYU
+m+nerI8CCCaTQkZ7mX5NHNuhrKPJWXPLV6csGXEohzreP+P+MnDjvfWEoO5Ra0abOTEIQDDpaTkZ
+J9OwbQnbouvuKJtnPrBboRwqnEvnLBw03Zsw5/NnhAsgmPTsyDIjvHa8MtJcc8k9oxrK7iMfvx3I
+fF4jTUAw6UkJVnsaNmuMSxfev1PrlLtz5POsWrai8/mbaFrTBASTnpEo5YSb7liNVyzb0ewe4eax
+s2cnXv4N8kvVcJtTOCb3kX/bfvo+E0zGTGKZE24aExHLQSPNVas6zyXPK+uqTKysK2et2dG/R/6N
++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
+RCZHZiN29nH+HxruceIw1o+bdcChHudtx/px+2vS/XgkX0PBhEki07a5B2amWOnfYA7HGqY1TMEE
+BLPr7UzJmpIVTEAwBVMwBRN2Xc5ofeONN3whBNMapjVMwYTRCmYubM/Zte+++64vXB8GczjWMK1h
+Cibswgjz8ccfL7NmzfKF68NgmpIdu8emZAWTSWrlypV1pHjBBReUQw89tF43mWstm+svH3300Xpd
+5lB7zGaLvFyLmc0PEEzBFEzBpG9l67r99tuv7sqTUCZ+GWHmGzQbD2SnnmyA8Morrwy7x+yxxx5b
+/57+CqY1TGuYggkt2e3n5JNP7jzOfrIJZrbEy8vr16+v+83mLiXD7TF73nnnlbVr1/pi9lkwh2MN
+0xqmYLJH+uijj+oIMyPNN998szPCjGxOcMwxx3S2shtuj9mpU6fu0g9eejuYpmTH7rEpWcFkklqx
+YkU58sgjyx/+8Id6K64mmPnGmzJlSmdHn6H2mE048zZD3QYKwRRMwRRM+l7ui/nQQw/VUeb25ISg
+rG3Sf8G0hmkNUzBhB3L2a86Evfzyyzv3sRzK999/X26++Wajyz4N5nDaa2mOiTm29z0nmAA9Ekx6
+m2ACCCaCCSCYCKZgAoKJYAomIJgIpmACfR7MbFaRH7CO/jlefvllwQQY7WDSvwQTYDfl+tnsTdp9
+Ibyjv478G/fLXYQEE5jwUaajf49+GV0KJgAIJgAIJgAIJgAIJgAIJgAIJgAIJgAgmAAT5owzzigv
+vPBCefHFF8tpp502ovdZuHBhmT9/vi+eYAKMn/Xr15dzzz23HHzwweXiiy8un3/+eX39448/Xn77
+29+Ws88+uzz//POD3mfFihVlr732qlv49WIw89/w448/jvg53HfffeXJJ5+s/13Lli2rr/vpp5/K
+4sWLy957711fRjCBPdxbb71V74jyzTfflBtuuKFG4quvvqpB3Lx5cw3q4YcfXn755Zf69m+88UY5
+6qijejaYeZ6nn356+eSTT0b8HC655JL6dbjppps6dxKZN29emTVrVv3vFEzBBOj47LPPygUXXFBH
+Wj///HM56aSTyqpVq2qcrrnmmvo2X3zxRX39unXrfhXMvE/CmvBkhJeRWUamP/zwQznwwAPLhx9+
+WJ555ply3HHHlRkzZpTXXntth8HM65pR7rRp08rTTz89KJj5nHfeeWc5+uij68fcuHFjWbBgQX1u
+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]]></icon>
+  </public>
+  <data>
+    <private>
+      <author/>
+      <author_email/>
+      <pipetting_policy><![CDATA[rows]]></pipetting_policy>
+    </private>
+    <library>
+      <consumable id="microplate384" shortname="MTP384" preparation="group" type="microplate384" version="2">
+        <name><![CDATA[384-well plate]]></name>
+        <display_name><![CDATA[MTP384]]></display_name>
+        <description><![CDATA[Generic microplate with 384 wells. This consumable describes typical square-shaped wells of capacity below 120 uL - with exclusion of 384-wells PCR microplates]]></description>
+        <category favorite="true"><![CDATA[Microplates]]></category>
+        <volumes max="120000" dead="10000"/>
+        <size columns="24" rows="16"/>
+      </consumable>
+      <consumable id="tube50" shortname="TB50" preparation="individual" type="tube50" version="2">
+        <name><![CDATA[50 mL conical centrifuge tube]]></name>
+        <display_name><![CDATA[TUBE 50]]></display_name>
+        <description><![CDATA[Plastic 50 mL tube, conical bottom (without skirt) and screwable cap. Also called Falcon tube or centrifuge tube]]></description>
+        <category favorite="true"><![CDATA[Tubes]]></category>
+        <volumes max="50000000" dead="500000"/>
+      </consumable>
+    </library>
+    <stock_solutions>
+      <stock_solution id="8ED34505-69B1-5BC7-A13D-40B01B09E97D">
+        <name><![CDATA[red dye]]></name>
+        <color>16738740</color>
+        <concentration unit="a.u.">1</concentration>
+      </stock_solution>
+      <stock_solution id="35651B84-7CF4-CAC7-59A9-43E3E7399E96">
+        <name><![CDATA[water]]></name>
+        <color>16766720</color>
+        <concentration unit="a.u.">1</concentration>
+      </stock_solution>
+    </stock_solutions>
+    <consumables>
+      <consumable pattern="microplate384" y="110" id="F9DB029D-9778-1EC4-7EA4-3F1BC3F0D649" x="326">
+        <label><![CDATA[384-well plate #1]]></label>
+        <required>true</required>
+      </consumable>
+      <consumable pattern="tube50" y="90" id="8CF4F670-48DD-E62D-EE18-3F1BDA813E43" x="143">
+        <label><![CDATA[50mL Falcon Tube (red dye)]]></label>
+        <required>true</required>
+        <stock_solution volume="-1" color="16738740" stock_solution_id="8ED34505-69B1-5BC7-A13D-40B01B09E97D"/>
+      </consumable>
+      <consumable pattern="tube50" y="228" id="516A731A-2BC7-0321-742B-3F2C542953FF" x="140">
+        <label><![CDATA[50mL Falcon Tube (water)]]></label>
+        <required>true</required>
+        <stock_solution volume="-1" color="16766720" stock_solution_id="35651B84-7CF4-CAC7-59A9-43E3E7399E96"/>
+      </consumable>
+    </consumables>
+    <set description="Gilson PIPETMAN Classic™" name="1000G" id="1000G">
+      <pipette>
+        <type><![CDATA[P2]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="15032858"/>
+        <volumes max="2000" elution_min="200" elution_max="2000" min="200"/>
+        <tips cork_ratio="0.65" cork_color="14037811" name="D10"/>
+        <tips_filter cork_ratio="0.65" cork_color="14037811" name="DF10"/>
+        <waste_volume>2000</waste_volume>
+      </pipette>
+      <pipette>
+        <type><![CDATA[P20]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="14340267"/>
+        <volumes elution_min="2000" aliquot_min="2000" max="20000" elution_max="20000" aliquot_max="20000" min="2000"/>
+        <tips cork_ratio="0.85" cork_color="14209102" name="D200"/>
+        <tips_filter cork_ratio="0.85" cork_color="14209102" name="DF30"/>
+        <waste_volume>10000</waste_volume>
+      </pipette>
+      <pipette>
+        <type><![CDATA[P100]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="16426375"/>
+        <volumes elution_min="10000" aliquot_min="2000" max="100000" elution_max="100000" aliquot_max="100000" min="20000"/>
+        <tips cork_ratio="0.85" cork_color="14209102" name="D200"/>
+        <tips_filter cork_ratio="0.85" cork_color="14209102" name="DF100"/>
+        <waste_volume>10000</waste_volume>
+      </pipette>
+      <pipette>
+        <type><![CDATA[P200]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="15582783"/>
+        <volumes elution_min="10000" aliquot_min="10000" max="200000" elution_max="200000" aliquot_max="200000" min="50000"/>
+        <tips cork_ratio="0.85" cork_color="14209102" name="D200"/>
+        <tips_filter cork_ratio="0.85" cork_color="14209102" name="DF200"/>
+        <waste_volume>30000</waste_volume>
+      </pipette>
+      <pipette>
+        <type><![CDATA[P1000]]></type>
+        <model><![CDATA[PIPETMAN Classic™]]></model>
+        <brand><![CDATA[Gilson]]></brand>
+        <visual wrench="15921906" ratio="0.43" pastille="2134493"/>
+        <volumes elution_min="50000" aliquot_min="50000" max="1000000" elution_max="1000000" aliquot_max="1000000" min="200000"/>
+        <tips cork_ratio="1" cork_color="3041480" name="D1000"/>
+        <tips_filter cork_ratio="1" cork_color="3041480" name="DF1000"/>
+        <waste_volume>200000</waste_volume>
+      </pipette>
+    </set>
+    <actions>
+      <action level="0" position="1" type="pipette">
+        <consumables>
+          <sources>
+            <consumable target="8CF4F670-48DD-E62D-EE18-3F1BDA813E43"/>
+          </sources>
+          <destinations>
+            <consumable target="F9DB029D-9778-1EC4-7EA4-3F1BC3F0D649">
+              <wells>
+                <well column="1" row="2"/>
+                <well column="2" row="2"/>
+                <well column="3" row="2"/>
+                <well column="4" row="2"/>
+                <well column="6" row="2"/>
+                <well column="7" row="2"/>
+                <well column="8" row="2"/>
+                <well column="9" row="2"/>
+                <well column="11" row="2"/>
+                <well column="12" row="2"/>
+                <well column="13" row="2"/>
+                <well column="15" row="2"/>
+                <well column="19" row="2"/>
+                <well column="21" row="2"/>
+                <well column="24" row="2"/>
+                <well column="1" row="3"/>
+                <well column="4" row="3"/>
+                <well column="6" row="3"/>
+                <well column="9" row="3"/>
+                <well column="11" row="3"/>
+                <well column="13" row="3"/>
+                <well column="15" row="3"/>
+                <well column="19" row="3"/>
+                <well column="21" row="3"/>
+                <well column="24" row="3"/>
+                <well column="1" row="4"/>
+                <well column="2" row="4"/>
+                <well column="3" row="4"/>
+                <well column="6" row="4"/>
+                <well column="9" row="4"/>
+                <well column="11" row="4"/>
+                <well column="13" row="4"/>
+                <well column="15" row="4"/>
+                <well column="17" row="4"/>
+                <well column="19" row="4"/>
+                <well column="21" row="4"/>
+                <well column="22" row="4"/>
+                <well column="24" row="4"/>
+                <well column="1" row="5"/>
+                <well column="4" row="5"/>
+                <well column="6" row="5"/>
+                <well column="7" row="5"/>
+                <well column="8" row="5"/>
+                <well column="11" row="5"/>
+                <well column="13" row="5"/>
+                <well column="15" row="5"/>
+                <well column="17" row="5"/>
+                <well column="19" row="5"/>
+                <well column="21" row="5"/>
+                <well column="23" row="5"/>
+                <well column="24" row="5"/>
+                <well column="1" row="6"/>
+                <well column="4" row="6"/>
+                <well column="6" row="6"/>
+                <well column="9" row="6"/>
+                <well column="11" row="6"/>
+                <well column="13" row="6"/>
+                <well column="15" row="6"/>
+                <well column="17" row="6"/>
+                <well column="19" row="6"/>
+                <well column="21" row="6"/>
+                <well column="24" row="6"/>
+                <well column="1" row="7"/>
+                <well column="2" row="7"/>
+                <well column="3" row="7"/>
+                <well column="4" row="7"/>
+                <well column="6" row="7"/>
+                <well column="9" row="7"/>
+                <well column="11" row="7"/>
+                <well column="12" row="7"/>
+                <well column="13" row="7"/>
+                <well column="16" row="7"/>
+                <well column="18" row="7"/>
+                <well column="21" row="7"/>
+                <well column="24" row="7"/>
+                <well column="1" row="10"/>
+                <well column="2" row="10"/>
+                <well column="3" row="10"/>
+                <well column="4" row="10"/>
+                <well column="6" row="10"/>
+                <well column="7" row="10"/>
+                <well column="8" row="10"/>
+                <well column="9" row="10"/>
+                <well column="11" row="10"/>
+                <well column="12" row="10"/>
+                <well column="13" row="10"/>
+                <well column="14" row="10"/>
+                <well column="16" row="10"/>
+                <well column="17" row="10"/>
+                <well column="18" row="10"/>
+                <well column="19" row="10"/>
+                <well column="21" row="10"/>
+                <well column="22" row="10"/>
+                <well column="23" row="10"/>
+                <well column="24" row="10"/>
+                <well column="1" row="11"/>
+                <well column="4" row="11"/>
+                <well column="6" row="11"/>
+                <well column="9" row="11"/>
+                <well column="11" row="11"/>
+                <well column="14" row="11"/>
+                <well column="16" row="11"/>
+                <well column="19" row="11"/>
+                <well column="21" row="11"/>
+                <well column="24" row="11"/>
+                <well column="1" row="12"/>
+                <well column="4" row="12"/>
+                <well column="6" row="12"/>
+                <well column="9" row="12"/>
+                <well column="11" row="12"/>
+                <well column="14" row="12"/>
+                <well column="16" row="12"/>
+                <well column="19" row="12"/>
+                <well column="21" row="12"/>
+                <well column="24" row="12"/>
+                <well column="1" row="13"/>
+                <well column="4" row="13"/>
+                <well column="6" row="13"/>
+                <well column="7" row="13"/>
+                <well column="8" row="13"/>
+                <well column="9" row="13"/>
+                <well column="11" row="13"/>
+                <well column="12" row="13"/>
+                <well column="13" row="13"/>
+                <well column="16" row="13"/>
+                <well column="17" row="13"/>
+                <well column="18" row="13"/>
+                <well column="19" row="13"/>
+                <well column="21" row="13"/>
+                <well column="22" row="13"/>
+                <well column="23" row="13"/>
+                <well column="24" row="13"/>
+                <well column="1" row="14"/>
+                <well column="4" row="14"/>
+                <well column="6" row="14"/>
+                <well column="9" row="14"/>
+                <well column="11" row="14"/>
+                <well column="14" row="14"/>
+                <well column="16" row="14"/>
+                <well column="21" row="14"/>
+                <well column="24" row="14"/>
+                <well column="1" row="15"/>
+                <well column="2" row="15"/>
+                <well column="3" row="15"/>
+                <well column="4" row="15"/>
+                <well column="6" row="15"/>
+                <well column="9" row="15"/>
+                <well column="11" row="15"/>
+                <well column="14" row="15"/>
+                <well column="16" row="15"/>
+                <well column="21" row="15"/>
+                <well column="24" row="15"/>
+              </wells>
+            </consumable>
+          </destinations>
+        </consumables>
+        <params>
+          <volume>25000</volume>
+          <tip no_blow_out="false" change_before="true" verify="false" touch_off="false" change_between="false" filter="false"/>
+          <precision required="false"/>
+          <operation speed="normal" alicots="1" type="forward"/>
+          <viscosity type="normal"/>
+          <cushion bottom="false" top="false"/>
+          <source>
+            <pipette_position height="0" type="liquid" policy="default"/>
+            <mixing speed="normal" number="0"/>
+          </source>
+          <destination>
+            <pipette_position height="0" type="bottom" policy="default"/>
+            <mixing speed="normal" number="0"/>
+          </destination>
+        </params>
+      </action>
+      <action level="0" position="2" type="pipette">
+        <consumables>
+          <sources>
+            <consumable target="516A731A-2BC7-0321-742B-3F2C542953FF"/>
+          </sources>
+          <destinations>
+            <consumable target="F9DB029D-9778-1EC4-7EA4-3F1BC3F0D649">
+              <wells>
+                <well column="1" row="1"/>
+                <well column="2" row="1"/>
+                <well column="3" row="1"/>
+                <well column="4" row="1"/>
+                <well column="5" row="1"/>
+                <well column="6" row="1"/>
+                <well column="7" row="1"/>
+                <well column="8" row="1"/>
+                <well column="9" row="1"/>
+                <well column="10" row="1"/>
+                <well column="11" row="1"/>
+                <well column="12" row="1"/>
+                <well column="13" row="1"/>
+                <well column="14" row="1"/>
+                <well column="15" row="1"/>
+                <well column="16" row="1"/>
+                <well column="17" row="1"/>
+                <well column="18" row="1"/>
+                <well column="19" row="1"/>
+                <well column="20" row="1"/>
+                <well column="21" row="1"/>
+                <well column="22" row="1"/>
+                <well column="23" row="1"/>
+                <well column="24" row="1"/>
+                <well column="5" row="2"/>
+                <well column="10" row="2"/>
+                <well column="14" row="2"/>
+                <well column="16" row="2"/>
+                <well column="17" row="2"/>
+                <well column="18" row="2"/>
+                <well column="20" row="2"/>
+                <well column="22" row="2"/>
+                <well column="23" row="2"/>
+                <well column="2" row="3"/>
+                <well column="3" row="3"/>
+                <well column="5" row="3"/>
+                <well column="7" row="3"/>
+                <well column="8" row="3"/>
+                <well column="10" row="3"/>
+                <well column="12" row="3"/>
+                <well column="14" row="3"/>
+                <well column="16" row="3"/>
+                <well column="17" row="3"/>
+                <well column="18" row="3"/>
+                <well column="20" row="3"/>
+                <well column="22" row="3"/>
+                <well column="23" row="3"/>
+                <well column="4" row="4"/>
+                <well column="5" row="4"/>
+                <well column="7" row="4"/>
+                <well column="8" row="4"/>
+                <well column="10" row="4"/>
+                <well column="12" row="4"/>
+                <well column="14" row="4"/>
+                <well column="16" row="4"/>
+                <well column="18" row="4"/>
+                <well column="20" row="4"/>
+                <well column="23" row="4"/>
+                <well column="2" row="5"/>
+                <well column="3" row="5"/>
+                <well column="5" row="5"/>
+                <well column="9" row="5"/>
+                <well column="10" row="5"/>
+                <well column="12" row="5"/>
+                <well column="14" row="5"/>
+                <well column="16" row="5"/>
+                <well column="18" row="5"/>
+                <well column="20" row="5"/>
+                <well column="22" row="5"/>
+                <well column="2" row="6"/>
+                <well column="3" row="6"/>
+                <well column="5" row="6"/>
+                <well column="7" row="6"/>
+                <well column="8" row="6"/>
+                <well column="10" row="6"/>
+                <well column="12" row="6"/>
+                <well column="14" row="6"/>
+                <well column="16" row="6"/>
+                <well column="18" row="6"/>
+                <well column="20" row="6"/>
+                <well column="22" row="6"/>
+                <well column="23" row="6"/>
+                <well column="5" row="7"/>
+                <well column="7" row="7"/>
+                <well column="8" row="7"/>
+                <well column="10" row="7"/>
+                <well column="14" row="7"/>
+                <well column="15" row="7"/>
+                <well column="17" row="7"/>
+                <well column="19" row="7"/>
+                <well column="20" row="7"/>
+                <well column="22" row="7"/>
+                <well column="23" row="7"/>
+                <well column="1" row="8"/>
+                <well column="2" row="8"/>
+                <well column="3" row="8"/>
+                <well column="4" row="8"/>
+                <well column="5" row="8"/>
+                <well column="6" row="8"/>
+                <well column="7" row="8"/>
+                <well column="8" row="8"/>
+                <well column="9" row="8"/>
+                <well column="10" row="8"/>
+                <well column="11" row="8"/>
+                <well column="12" row="8"/>
+                <well column="13" row="8"/>
+                <well column="14" row="8"/>
+                <well column="15" row="8"/>
+                <well column="16" row="8"/>
+                <well column="17" row="8"/>
+                <well column="18" row="8"/>
+                <well column="19" row="8"/>
+                <well column="20" row="8"/>
+                <well column="21" row="8"/>
+                <well column="22" row="8"/>
+                <well column="23" row="8"/>
+                <well column="24" row="8"/>
+                <well column="1" row="9"/>
+                <well column="2" row="9"/>
+                <well column="3" row="9"/>
+                <well column="4" row="9"/>
+                <well column="5" row="9"/>
+                <well column="6" row="9"/>
+                <well column="7" row="9"/>
+                <well column="8" row="9"/>
+                <well column="9" row="9"/>
+                <well column="10" row="9"/>
+                <well column="11" row="9"/>
+                <well column="12" row="9"/>
+                <well column="13" row="9"/>
+                <well column="14" row="9"/>
+                <well column="15" row="9"/>
+                <well column="16" row="9"/>
+                <well column="17" row="9"/>
+                <well column="18" row="9"/>
+                <well column="19" row="9"/>
+                <well column="20" row="9"/>
+                <well column="21" row="9"/>
+                <well column="22" row="9"/>
+                <well column="23" row="9"/>
+                <well column="24" row="9"/>
+                <well column="5" row="10"/>
+                <well column="10" row="10"/>
+                <well column="15" row="10"/>
+                <well column="20" row="10"/>
+                <well column="2" row="11"/>
+                <well column="3" row="11"/>
+                <well column="5" row="11"/>
+                <well column="7" row="11"/>
+                <well column="8" row="11"/>
+                <well column="10" row="11"/>
+                <well column="12" row="11"/>
+                <well column="13" row="11"/>
+                <well column="15" row="11"/>
+                <well column="17" row="11"/>
+                <well column="18" row="11"/>
+                <well column="20" row="11"/>
+                <well column="22" row="11"/>
+                <well column="23" row="11"/>
+                <well column="2" row="12"/>
+                <well column="3" row="12"/>
+                <well column="5" row="12"/>
+                <well column="7" row="12"/>
+                <well column="8" row="12"/>
+                <well column="10" row="12"/>
+                <well column="12" row="12"/>
+                <well column="13" row="12"/>
+                <well column="15" row="12"/>
+                <well column="17" row="12"/>
+                <well column="18" row="12"/>
+                <well column="20" row="12"/>
+                <well column="22" row="12"/>
+                <well column="23" row="12"/>
+                <well column="2" row="13"/>
+                <well column="3" row="13"/>
+                <well column="5" row="13"/>
+                <well column="10" row="13"/>
+                <well column="14" row="13"/>
+                <well column="15" row="13"/>
+                <well column="20" row="13"/>
+                <well column="2" row="14"/>
+                <well column="3" row="14"/>
+                <well column="5" row="14"/>
+                <well column="7" row="14"/>
+                <well column="8" row="14"/>
+                <well column="10" row="14"/>
+                <well column="12" row="14"/>
+                <well column="13" row="14"/>
+                <well column="15" row="14"/>
+                <well column="17" row="14"/>
+                <well column="18" row="14"/>
+                <well column="19" row="14"/>
+                <well column="20" row="14"/>
+                <well column="22" row="14"/>
+                <well column="23" row="14"/>
+                <well column="5" row="15"/>
+                <well column="7" row="15"/>
+                <well column="8" row="15"/>
+                <well column="10" row="15"/>
+                <well column="12" row="15"/>
+                <well column="13" row="15"/>
+                <well column="15" row="15"/>
+                <well column="17" row="15"/>
+                <well column="18" row="15"/>
+                <well column="19" row="15"/>
+                <well column="20" row="15"/>
+                <well column="22" row="15"/>
+                <well column="23" row="15"/>
+                <well column="1" row="16"/>
+                <well column="2" row="16"/>
+                <well column="3" row="16"/>
+                <well column="4" row="16"/>
+                <well column="5" row="16"/>
+                <well column="6" row="16"/>
+                <well column="7" row="16"/>
+                <well column="8" row="16"/>
+                <well column="9" row="16"/>
+                <well column="10" row="16"/>
+                <well column="11" row="16"/>
+                <well column="12" row="16"/>
+                <well column="13" row="16"/>
+                <well column="14" row="16"/>
+                <well column="15" row="16"/>
+                <well column="16" row="16"/>
+                <well column="17" row="16"/>
+                <well column="18" row="16"/>
+                <well column="19" row="16"/>
+                <well column="20" row="16"/>
+                <well column="21" row="16"/>
+                <well column="22" row="16"/>
+                <well column="23" row="16"/>
+                <well column="24" row="16"/>
+              </wells>
+            </consumable>
+          </destinations>
+        </consumables>
+        <params>
+          <volume>20000</volume>
+          <tip no_blow_out="false" change_before="true" verify="false" touch_off="false" change_between="false" filter="false"/>
+          <precision required="false"/>
+          <operation speed="normal" alicots="1" type="forward"/>
+          <viscosity type="normal"/>
+          <cushion bottom="false" top="false"/>
+          <source>
+            <pipette_position height="0" type="liquid" policy="default"/>
+            <mixing speed="normal" number="0"/>
+          </source>
+          <destination>
+            <pipette_position height="0" type="bottom" policy="default"/>
+            <mixing speed="normal" number="0"/>
+          </destination>
+        </params>
+      </action>
+    </actions>
+  </data>
+</protocol>

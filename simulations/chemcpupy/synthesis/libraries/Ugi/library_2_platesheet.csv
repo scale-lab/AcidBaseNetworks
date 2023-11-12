@@ -1,0 +1,36 @@
+PlateSheet v1.1,,,,,,,
+,,,,,,,
+Container,Barcode,Title,Author,Date,Description,,
+384PP,0,Reagents for Ugi Product,Chris Arcadia,,"Library 2 (copied from ""Library Reactions - Shared.xslx"")",,
+,,,,,,,
+Type,Name,CID,Solvent,Concentration,Volume,Start,End
+amine,benzylamine,7504,DMSO,4,1.00E-05,A1,J17
+aldehyde,2-nitrobenzaldehyde,11101,DMSO,4,1.00E-05,A1,E17
+aldehyde,isobutyraldehyde,6561,DMSO,4,1.00E-05,F1,J17
+isocyanide,methyl isocyanoacetate,547815,DMSO,4,1.00E-05,A1,A17
+isocyanide,butyl isocyanide,76008,DMSO,4,1.00E-05,B1,B17
+isocyanide,cyclohexyl isocyanide,79129,DMSO,4,1.00E-05,C1,C17
+isocyanide,benzyl isocyanide,82558,DMSO,4,1.00E-05,D1,D17
+isocyanide,2-naphthyl isocyanide,16217475,DMSO,4,1.00E-05,E1,E17
+isocyanide,methyl isocyanoacetate,547815,DMSO,4,1.00E-05,F1,F17
+isocyanide,butyl isocyanide,76008,DMSO,4,1.00E-05,G1,G17
+isocyanide,cyclohexyl isocyanide,79129,DMSO,4,1.00E-05,H1,H17
+isocyanide,benzyl isocyanide,82558,DMSO,4,1.00E-05,I1,I17
+isocyanide,2-naphthyl isocyanide,16217475,DMSO,4,1.00E-05,J1,J17
+carboxylic acid,boc-o-benzyl-l-beta-homotyrosine,2761555,DMSO,5,1.00E-05,A1,J1
+carboxylic acid,boc-l-beta-homoleucine,2761526,DMSO,6,1.00E-05,A2,J2
+carboxylic acid,boc-l-glutamic acid 5-benzyl ester,83589,DMSO,7,1.00E-05,A3,J3
+carboxylic acid,boc-l-phenylalanine,77857,DMSO,8,1.00E-05,A4,J4
+carboxylic acid,boc-l-proline,85083,DMSO,9,1.00E-05,A5,J5
+carboxylic acid,boc-o-benzyl-l-tyrosine,98763,DMSO,10,1.00E-05,A6,J6
+carboxylic acid,boc-l-beta-homomethionine,16211045,DMSO,11,1.00E-05,A7,J7
+carboxylic acid,boc-l-lys(epsilon-formyl)-oh,1581890,DMSO,12,1.00E-05,A8,J8
+carboxylic acid,boc-l-methionine,89857,DMSO,13,1.00E-05,A9,J9
+carboxylic acid,boc-l-beta-homoglutamine,2761810,DMSO,14,1.00E-05,A10,J10
+carboxylic acid,boc-n-methyl-l-phenylalanine,7010602,DMSO,15,1.00E-05,A11,J11
+carboxylic acid,boc-n-methyl-l-valine,7010608,DMSO,16,1.00E-05,A12,J12
+carboxylic acid,boc-glycine,78288,DMSO,17,1.00E-05,A13,J13
+carboxylic acid,n-(tert-butoxycarbonyl)-n'-formyl-l-tryptophan,7017963,DMSO,18,1.00E-05,A14,J14
+carboxylic acid,boc-o-methyl-l-tyrosine,2762280,DMSO,19,1.00E-05,A15,J15
+carboxylic acid,n-boc-n'-acetyl-l-lysine,7016049,DMSO,20,1.00E-05,A16,J16
+carboxylic acid,boc-l-asparagine,82035,DMSO,21,1.00E-05,A17,J17
